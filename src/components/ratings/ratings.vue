@@ -279,6 +279,7 @@ export default {
       })
     },
     filterEvel(item) {
+      // 排他思想
       this.classifyArr.forEach((data) => {
         data.active = false
       })

@@ -50,4 +50,5 @@ new Vue({
   }
 }).$mount('#app')
 
+// 默认路由
 router.push('goods')

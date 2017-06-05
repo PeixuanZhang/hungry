@@ -30,13 +30,12 @@
     </div>
     <div class="tab-item">
       <router-link to="/seller">商家</router-link>
-    </div>
+    </div>3
   </div>
   <keep-alive>
     <router-view :seller="seller"></router-view>
   </keep-alive>
 </div>
-
 </template>
 
 <script>
@@ -60,5 +59,4 @@ export default {
     'v-header': header
   }
 }
-
 </script>
